@@ -73,8 +73,7 @@ p {
     box-shadow: 0 12px 30px rgba(179, 92, 122, 0.15);
 }
 
-;
-/* ===== Why Section ===== */
+/* ================= Why Section ================= */
 
 .why {
     margin-top: 25px;
@@ -87,12 +86,11 @@ p {
     color: #b35c7a;
 }
 
-/* أهم جزء 👇 */
 .why ul {
     list-style: disc;
-    padding-left: 20px;   /* يخلي النقط جنب الكلام */
+    padding-left: 20px;
     margin: 0 auto;
-    max-width: 420px;     /* يخلي البلوك متوسّط شكله شيك */
+    max-width: 420px;
 }
 
 .why li {
@@ -101,9 +99,7 @@ p {
     line-height: 1.6;
 }
 
-
-
-/* ===== Buttons ===== */
+/* ================= Buttons ================= */
 
 .project-btn,
 .contact-btn {
@@ -117,37 +113,7 @@ p {
     cursor: pointer;
 }
 
-/* Explore Project */
-.project-btn {
-    background: #b35c7a;
-    color: white;
-}
-
-/* Contact */
-.contact-btn {
-    background: white;
-    color: #b35c7a;
-    border: 2px solid #b35c7a;
-}
-
-/* ✨ Hover Effect  */
-.project-btn:hover,
-.contact-btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 22px rgba(179, 92, 122, 0.25);
-}
-
-/* Color Change */
-.project-btn:hover {
-    background: #8f3f59;
-}
-
-.contact-btn:hover {
-    background: #b35c7a;
-    color: white;
-}
-
-/* ===== View Project Button ===== */
+/* Project Button */
 
 .project-btn {
     background: #b35c7a;
@@ -160,7 +126,7 @@ p {
     box-shadow: 0 12px 25px rgba(143, 63, 89, 0.35);
 }
 
-/* ===== Contact Button ===== */
+/* Contact Button */
 
 .contact {
     margin-top: 30px;
