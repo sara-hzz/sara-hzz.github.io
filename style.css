@@ -1,4 +1,4 @@
-/* ===== Base ===== */
+/* ================= Base ================= */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -8,7 +8,7 @@ body {
     color: #2e2e2e;
 }
 
-/* ===== Container ===== */
+/* ================= Container ================= */
 
 .container {
     max-width: 760px;
@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-/* ===== Headings ===== */
+/* ================= Headings ================= */
 
 h1, h2 {
     font-family: 'DM Serif Display', serif;
@@ -45,14 +45,19 @@ h2 {
     font-size: 24px;
 }
 
-/* ===== Text ===== */
+h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* ================= Text ================= */
 
 p {
     line-height: 1.7;
     font-size: 15px;
 }
 
-/* ===== Card ===== */
+/* ================= Card ================= */
 
 .card {
     background: #fff0f6;
@@ -68,75 +73,80 @@ p {
     box-shadow: 0 12px 30px rgba(179, 92, 122, 0.15);
 }
 
-.card h3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-}
+/* ================= Why Section ================= */
 
-/* ===== Why Section ===== */
-
-.why {
-    margin: 25px 0;
+.features {
+    margin: 30px 0;
     text-align: left;
     display: inline-block;
 }
 
-.why h4 {
-    margin-bottom: 10px;
+.features h4 {
+    margin-bottom: 12px;
     font-size: 15px;
     color: #b35c7a;
 }
 
-.why ul {
+.features ul {
     padding-left: 18px;
     margin: 0;
 }
 
-.why li {
-    margin-bottom: 6px;
+.features li {
+    margin-bottom: 8px;
     font-size: 14px;
 }
 
-/* ===== Buttons ===== */
+/* ================= Buttons ================= */
 
-.project-btn {
+.button-group {
+    margin-top: 30px;
+}
+
+.project-btn,
+.contact-btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 24px;
-    background-color: #b35c7a;
-    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
     text-decoration: none;
-    border-radius: 25px;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 15px;
     transition: all 0.3s ease;
 }
 
-.project-btn:hover {
-    background-color: #8f3f59;
+/* ===== View Project Button ===== */
+
+.project-btn {
+    background: #b35c7a;
+    color: white;
 }
 
+.project-btn:hover {
+    background: #8f3f59;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(143, 63, 89, 0.35);
+}
+
+/* ===== Contact Button ===== */
+
 .contact {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .contact-btn {
-    display: inline-block;
-    padding: 10px 24px;
-    background-color: #8f3f59;
-    color: white;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    transition: 0.3s ease;
+    background: white;
+    color: #b35c7a;
+    border: 2px solid #b35c7a;
 }
 
 .contact-btn:hover {
-    background-color: #6f2f44;
+    background: #b35c7a;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(143, 63, 89, 0.35);
 }
 
-/* ===== Mobile ===== */
+/* ================= Responsive ================= */
 
 @media (max-width: 768px) {
 
@@ -149,11 +159,24 @@ p {
         font-size: 30px;
     }
 
-    .project-btn,
-    .contact-btn {
+    .subtitle {
+        font-size: 15px;
+        margin-bottom: 40px;
     }
 
-    .why {
-        text-align: left;
+    h2 {
+        font-size: 20px;
+        margin-top: 45px;
+    }
+
+    .card {
+        padding: 22px;
+        margin-bottom: 45px;
+    }
+
+    .project-btn,
+    .contact-btn {
+        width: 100%;
+        text-align: center;
     }
 }
