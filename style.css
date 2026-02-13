@@ -119,3 +119,38 @@ p {
     transform: translateY(-4px);
     box-shadow: 0 18px 40px rgba(143, 63, 89, 0.4);
 }
+
+/* ================= Mobile Responsive ================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 40px 15px;
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .card {
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+
+    .project-btn,
+    .contact-btn {
+        width: 100%;
+        padding: 14px;
+    }
+}
