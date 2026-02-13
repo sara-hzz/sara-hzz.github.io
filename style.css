@@ -72,6 +72,32 @@ p {
     margin-bottom: 14px;
     font-size: 19px;
 }
+/* ================= Why Section ================= */
+
+.why {
+    margin-top: 25px;
+    text-align: left;   /* مهم جداً علشان يشيل السنتر */
+    display: inline-block;
+}
+
+.why h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8f3f59;
+}
+
+.why ul {
+    padding-left: 18px;   /* يقرب النقط من الكلام */
+    margin: 0;
+}
+
+.why li {
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #444;
+}
+
 /* ===== Why Section ===== */
 
 .why-box {
