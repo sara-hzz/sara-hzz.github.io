@@ -73,35 +73,32 @@ p {
     box-shadow: 0 12px 30px rgba(179, 92, 122, 0.15);
 }
 
-/* ================= Why Section ================= */
+/* ===== Why Section ===== */
 
-.features {
-    margin: 30px 0;
+.why {
+    margin: 25px auto 35px;
+    max-width: 420px;        /* يخليها متوسطة ومش عريضة */
     text-align: left;
-    display: inline-block;
 }
 
-.features h4 {
+.why h4 {
     margin-bottom: 12px;
-    font-size: 15px;
     color: #b35c7a;
+    font-size: 16px;
 }
 
-.features ul {
-    padding-left: 18px;
+.why ul {
+    padding-left: 20px;      /* النقط تبقى جنب الكلام */
     margin: 0;
 }
 
-.features li {
+.why li {
     margin-bottom: 8px;
     font-size: 14px;
+    line-height: 1.6;
 }
 
-/* ================= Buttons ================= */
-
-.button-group {
-    margin-top: 30px;
-}
+/* ===== Buttons ===== */
 
 .project-btn,
 .contact-btn {
@@ -111,7 +108,38 @@ p {
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+/* Explore Project */
+.project-btn {
+    background: #b35c7a;
+    color: white;
+}
+
+/* Contact */
+.contact-btn {
+    background: white;
+    color: #b35c7a;
+    border: 2px solid #b35c7a;
+}
+
+/* ✨ Hover Effect  */
+.project-btn:hover,
+.contact-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 22px rgba(179, 92, 122, 0.25);
+}
+
+/* Color Change */
+.project-btn:hover {
+    background: #8f3f59;
+}
+
+.contact-btn:hover {
+    background: #b35c7a;
+    color: white;
 }
 
 /* ===== View Project Button ===== */
