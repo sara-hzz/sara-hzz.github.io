@@ -96,6 +96,28 @@ p {
     transform: translateY(-3px);
     box-shadow: 0 15px 35px rgba(179, 92, 122, 0.35);
 }
+/* Buttons default */
+.project-btn,
+.contact-btn {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+    .project-btn,
+    .contact-btn {
+        width: auto;
+        padding: 14px 36px;
+    }
+}
+@media (min-width: 768px) {
+    .project-btn,
+    .contact-btn {
+        border-radius: 40px;
+        font-size: 15px;
+    }
+}
 
 /* ================= Contact Section ================= */
 
