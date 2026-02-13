@@ -44,3 +44,19 @@ h2 {
     color: #c94f7c;
     font-weight: bold;
 }
+.contact-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 28px;
+    background-color: #e9b7c9;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #d98aa6;
+    transform: translateY(-2px);
+}
