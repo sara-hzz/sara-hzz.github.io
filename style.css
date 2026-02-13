@@ -73,23 +73,26 @@ p {
     box-shadow: 0 12px 30px rgba(179, 92, 122, 0.15);
 }
 
+;
 /* ===== Why Section ===== */
 
 .why {
-    margin: 25px auto 35px;
-    max-width: 420px;        /* يخليها متوسطة ومش عريضة */
+    margin-top: 25px;
+    margin-bottom: 30px;
     text-align: left;
 }
 
 .why h4 {
     margin-bottom: 12px;
     color: #b35c7a;
-    font-size: 16px;
 }
 
+/* أهم جزء 👇 */
 .why ul {
-    padding-left: 20px;      /* النقط تبقى جنب الكلام */
-    margin: 0;
+    list-style: disc;
+    padding-left: 20px;   /* يخلي النقط جنب الكلام */
+    margin: 0 auto;
+    max-width: 420px;     /* يخلي البلوك متوسّط شكله شيك */
 }
 
 .why li {
@@ -97,6 +100,7 @@ p {
     font-size: 14px;
     line-height: 1.6;
 }
+
 
 /* ===== Buttons ===== */
 
